@@ -42,14 +42,63 @@
       </div>
   </nav>
 
-  <h1>Games and Trivia</h1>
+  <div class="jumbotron" class="games">
+    <h1 class="display-4">Games and Trivia</h1>
+  </div>
 
+  <div class="container">
+    <div class="col text-center">
+      <h3>Single or Multi-Person Virtual Games</h3>
+    </div>
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Description</th>
+            <th scope="col">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Jackbox</th>
+            <td>Multi-Person</td>
+            <td>Game pack add-ons that can be used played through a variety of digital platforms such as Zoom or Xbox.  Multiple party packs available to purchase--mix and match! Players join using the web browser on their smartphone, so no apps needed.</td>
+            <td><a href=https://www.jackboxgames.com/about>Play Now</a></td>
+          </tr>
+          <tr>
+            <th scope="row">CodeNames</th>
+            <td>4-Person</td>
+            <td>Just like the physical CodeNames game, there are multiple websites that now allow you to play this favorite game online.</td>
+            <td><a href=https://www.horsepaste.com>Play Now</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Playing Cards</th>
+            <td>2-Person</td>
+            <td>This site offers a range of classic board and card games for online play, such as Backgammon, Checkers, Go Fish, and Crazy Eights.</td>
+            <td><a href=http://playingcards.io>Play Now</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Sporcle</th>
+            <td>Trivia</td>
+            <td>One of the largest collections of trivia games and quizzes, ranging from sports to religion. Play on your own or against friends.</td>
+            <td><a href=https://www.sporcle.com>Play Now</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Trivia Crack</th>
+            <td>Trivia</td>
+            <td>Play one-on-one against your friends in this competitive trivia. The app is free on any mobile device.</td>
+            <td><a href=https://www.triviacrack2.com>Play Now</a></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
   
   <hr class="my-4">
 
   <div class= "feedback">
     <div class ="container">
-      <h6>Have any Quarantine tips or activities that you'd like to share?  Submit your recommendation or any feedback to help improve our site!</h6>
+      <h6>Have any quarantine tips or activities that you'd like to share? Submit your recommendation and any content to help our site grow!</h6>
       <form netlify>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
@@ -58,7 +107,7 @@
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Recommendation or Feedback</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="text" class="form-control" id="exampleInputPassword1">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>

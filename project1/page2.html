@@ -42,8 +42,10 @@
     </div>
   </nav>
 
-  <div class="jumbotron">
-    <h1 class="display-4">Learning in Quarantine</h1>
+  <div class="jumbotron jumbotron-fluid home">
+    <div class="container">
+      <h1 class="display-4">Learning in Quarantine</h1 class="display-4">
+    </div>
   </div>
 
   <div class="container">
@@ -54,7 +56,7 @@
         <thead>
           <tr>
             <th scope="col">Resource</th>
-            <th scope="col">Resource Type</th>
+            <th scope="col">Category</th>
             <th scope="col">Description</th>
             <th scope="col">Link</th>
           </tr>
@@ -62,27 +64,33 @@
         <tbody>
           <tr>
             <th scope="row">Coursera</th>
-            <td>Academic Courses and Personal Development</td>
+            <td>Multiple</td>
             <td>Extensive offering of academic, personal and professional development courses, taught by universities, corporations, and independent teachers.</td>
-            <td><a href=https://www.coursera.org>Get Started</a></td>
+            <td><a href=https://www.coursera.org>Start Now</a></td>
           </tr>
           <tr>
-            <th scope="row">Skills you Need</th>
+            <th scope="row">SkillsyouNeed</th>
             <td>Personal Development</td>
             <td>Collection of information and activities to develop your personal life skills.  Such as Interpersonal SKills, Learning Skills, and Parenting Skills.</td>
-            <td><a href=https://www.skillsyouneed.com/ips/conflict-and-mediation.html>Get Started</a></td>
+            <td><a href=https://www.skillsyouneed.com/ips/conflict-and-mediation.html>Start Now</a></td>
           </tr>
           <tr>
             <th scope="row">Udemy</th>
-            <td>All</td>
+            <td>Multiple</td>
             <td>Extensive offering of academic, skill-based, arts, personal and professional development, certificate, and health-based courses.  Courses are developed by individual contributors and cover a wide array of areas.</td>
-            <td><a href=www.udemy.com>Get Started</a></td>
+            <td><a href=www.udemy.com>Start Now</a></td>
           </tr>
           <tr>
             <th scope="row">Duolingo</th>
             <td>Languages / Skills</td>
             <td>Free resource to help you learn a new langauge.  Multiple languages offered online or on their easy-to-use app.</td>
-            <td><a href=https://www.duolingo.com>Get Started</a></td>
+            <td><a href=https://www.duolingo.com>Start Now</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Read Music</th>
+            <td>Languages / Skills</td>
+            <td>Free resources, lessons, games, and tools to help you learn how to read music.</td>
+            <td><a href=http://www.readmusicfree.com>Start Now</a></td>
           </tr>
         </tbody>
       </table>
@@ -92,7 +100,7 @@
 
   <div class= "feedback">
     <div class ="container">
-      <h6>Have any Quarantine tips or activities that you'd like to share?  Submit your recommendation or any feedback to help improve our site!</h6>
+      <h6>Have any quarantine tips or activities that you'd like to share? Submit your recommendation and any content to help our site grow!</h6>
       <form netlify>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
@@ -101,7 +109,7 @@
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Recommendation or Feedback</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="text" class="form-control" id="exampleInputPassword1">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
