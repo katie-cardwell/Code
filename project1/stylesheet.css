@@ -1,9 +1,33 @@
-h1 {color:white; font-weight:600; font-size: 50px; }
+h1 {color:black; font-weight:600; font-size: 50px; }
 
-h3{color:lightblue;}
+h2{color:rgb(22, 88, 110); font-size: 22px;font-family: 'Manrope', sans-serif;}
 
-p{color: white;}
+h3{color:black; font-family: 'Manrope', sans-serif;}
 
-img {width: 250px;}
+p.caption {color: white}
 
-body {background:rgb(83, 83, 83);}
+p{font-family: 'Manrope', sans-serif; font-size:medium; font-weight: 300}
+
+img {width: 54px;}
+
+body {background: white;}
+
+div.middle {background-color:rgb(224, 224, 224)}
+
+h1.five {font-style: italic;}
+
+h4{font-style: normal; font-weight:600; font-size: 25px; color: rgb(167, 34, 34); font-family:'Manrope', sans-serif;}
+
+nav {background: white; Font-size: 20px}
+
+div.col-sm-4.text-center {color: black}
+
+div.row {color: black}
+
+div.jumbotron.jumbotron-fluid {background-image: url(Coronavirus2.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+
+div.carousel-caption.d-none.d-md-block {background-color: rgba(128, 128, 128, 0.432)}
+
+div.jumbotron {background-image: url(workfromhome.jpg); background-attachment: fixed; background-repeat: no-repeat;background-size:cover;}
+
+
